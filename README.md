@@ -255,3 +255,23 @@ python -m JITFine.semantic.run \
     --seed 42 2>&1|  tee model/jitfine/saved_models_semantic/test.log
 ```
 
+
+
+## Acknowledgements
+- For Deeper,  DeepJIT, CC2Vec, we adopt the implementation from this project
+  - [*Deep Just-in-Time Defect Prediction: How Far Are We?*](https://github.com/ZZR0/ISSTA21-JIT-DP) 
+ 
+- For JITLine, we adopt the implementation from this project
+  - [JITLine: A Simpler, Better, Faster, Finer-grained Just-In-Time Defect Prediction](https://zenodo.org/record/4596503)
+ 
+- Special thanks to each work's developers
+
+## Citation
+
+@inproceedings{ni2022best,
+  title={The best of both worlds: integrating semantic features with expert features for defect prediction and localization},
+  author={Ni, Chao and Wang, Wei and Yang, Kaiwen and Xia, Xin and Liu, Kui and Lo, David},
+  booktitle={Proceedings of the 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  pages={672--683},
+  year={2022}
+}
